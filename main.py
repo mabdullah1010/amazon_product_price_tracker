@@ -5,7 +5,6 @@ import smtplib
 from dotenv import load_dotenv
 
 load_dotenv()
-
 MY_EMAIL = os.getenv("MY_EMAIL")
 MY_PASSWORD = os.getenv("MY_PASSWORD")
 RECEIVER_EMAIL = os.getenv("RECEIVER_EMAIL")
